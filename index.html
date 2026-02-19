@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Milo – Asistente Educativo Inclusivo con IA para niños con TEA" />
+    <title>Milo – Asistente Educativo Inclusivo con IA</title>
+
+    <!-- Google Fonts: Nunito (body) + Baloo 2 (display) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Favicon -->
+    <link rel="icon" href="media/Milo.png" type="image/x-icon" />
+
+</head>
+<body>
+
+    <!-- DECORATIVE BACKGROUND BLOBS -->
+    <div class="blob blob-1" aria-hidden="true"></div>
+    <div class="blob blob-2" aria-hidden="true"></div>
+
+    <!-- HEADER -->
+    <header id="main-header" role="banner">
+        <div class="nav-inner">
+
+        <!-- Logo -->
+        <a href="#inicio" class="logo" aria-label="Milo – Inicio">
+            <div class="logo-icon" aria-hidden="true"><img src="media/logo-milo.png" alt="MloApp"></div>
+            <div>
+            <div class="logo-text"><span>Milo</span></div>
+            <div class="logo-subtitle">Asistente Educativo Inclusivo con IA</div>
+            </div>
+        </a>
+
+        <!-- Hamburger  menu (mobile) -->
+        <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
+            <span></span><span></span><span></span>
+        </button>
+
+        <!-- Navigation -->
+        <nav id="main-nav" role="navigation" aria-label="Navegación principal">
+            <ul>
+            <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+            <li><a href="#historia" class="nav-link">Historia</a></li>
+            <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main id="main-content">
+        <!--  SECCIÓN INICIO -->
+        <section id="inicio" aria-labelledby="inicio-heading-1">
+
+        <div class="container">
+
+            <!-- Sub-sección 1 -->
+            <div class="section-inner reveal">
+                <!-- Texto -->
+                <div class="text-col">
+                    <span class="section-label">✨ Educación inclusiva</span>
+                    <h1 id="inicio-heading-1">
+                    Educación inclusiva<br/>
+                    <span class="highlight">adaptada a cada estudiante</span>
+                    </h1>
+                    <p>
+                    Milo es un asistente educativo inclusivo basado en inteligencia artificial,
+                    diseñado para acompañar y apoyar a niños con Trastorno del Espectro
+                    Autista, adaptándose a su forma única de aprender y comunicarse.
+                    </p>
+                    <a href="#contacto" class="btn">Conocer más</a>
+                </div>
+
+                <!-- Imagen placeholder 1 -->
+                <div class="image-col reveal reveal-delay-1">
+                    <div class="image-placeholder" role="img" aria-label="Espacio reservado para imagen ilustrativa de Milo">
+                        <img src="media/educacion-inclusiva.png" alt="Educación inclusiva con Milo">
+                    </div>
+                </div>
+            </div><!-- /section-inner 1 -->
+
+            <!-- Sub-sección 2 -->
+            <div class="section-inner reverse reveal">
+
+                <!-- Imagen placeholder 2 -->
+                <div class="image-col reveal reveal-delay-1">
+                    <div class="image-placeholder small" role="img" aria-label="Espacio reservado para imagen de la plataforma Milo">
+                        <img src="media/Milo.png" alt="Milo">
+                    </div>
+                </div>
+
+                <!-- Texto -->
+                <div class="text-col">
+                    <span class="section-label">🧠 Inteligencia artificial</span>
+                    <h2>Un asistente inteligente que <span class="highlight">aprende con cada niño</span></h2>
+                    <p>
+                    La plataforma utiliza inteligencia artificial para personalizar actividades,
+                    personajes y niveles de comunicación, fomentando habilidades sociales, emocionales
+                    y cognitivas en un entorno seguro e interactivo.
+                    </p>
+                    <a href="#historia" class="btn btn-outline">Nuestra historia</a>
+                </div>
+
+            </div><!-- /section-inner 2 -->
+
+        </div><!-- /container -->
+
+        
+
+        </section><!-- /#inicio -->
+
+        <!-- Wave divider -->
+        <div class="wave-divider" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" height="60">
+            <path d="M0,40 C360,80 1080,0 1440,40 L1440,60 L0,60 Z" fill="#F4F7F5"/>
+            <path d="M0,40 C360,80 1080,0 1440,40 L1440,60 L0,60 Z" fill="#ffffff"/>
+        </svg>
+        </div>
+
+        <!-- SECCIÓN FEATURES  -->
+        <section id="features" aria-labelledby="features-heading">
+            <div class="container">
+                <div class="features-header reveal">
+                    <span class="section-label">🌟 Características</span>
+                    <h2 id="features-heading">¿Por qué elegir <span class="highlight">Milo</span>?</h2>
+                    <p>Cada función fue diseñada pensando en las necesidades únicas de niños con TEA y sus familias.</p>
+                </div>
+
+                <div class="features-grid" role="list">
+                    <!-- Feature 1 -->
+                    <article class="feature-card reveal" role="listitem">
+                        <div class="feature-icon" aria-hidden="true">🎨</div>
+                        <h3>Actividades personalizadas</h3>
+                        <p>La IA adapta el contenido, los colores y la dificultad al perfil de aprendizaje de cada niño.</p>
+                    </article>
+                    <!-- Feature 2 -->
+                    <article class="feature-card reveal reveal-delay-1" role="listitem">
+                        <div class="feature-icon" aria-hidden="true">💬</div>
+                        <h3>Comunicación adaptativa</h3>
+                        <p>Tableros de comunicación, pictogramas y lenguaje simplificado ajustados al nivel del usuario.</p>
+                    </article>
+                    <!-- Feature 3 -->
+                    <article class="feature-card reveal reveal-delay-2" role="listitem">
+                        <div class="feature-icon" aria-hidden="true">🛡️</div>
+                        <h3>Entorno seguro</h3>
+                        <p>Sin publicidad, sin contenido inapropiado. Los padres controlan toda la experiencia.</p>
+                    </article>
+                    <!-- Feature 4 -->
+                    <article class="feature-card reveal reveal-delay-3" role="listitem">
+                        <div class="feature-icon" aria-hidden="true">📈</div>
+                        <h3>Seguimiento de progreso</h3>
+                        <p>Reportes detallados para terapeutas y familias sobre el avance de habilidades clave.</p>
+                    </article>
+                </div>
+            </div>
+        </section><!-- /#features -->
+
+        <!-- Wave divider -->
+        <div class="wave-divider" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" height="60">
+            <path d="M0,20 C480,60 960,0 1440,30 L1440,0 L0,0 Z" fill="#ffffff"/>
+        </svg>
+        </div>
+
+        <!-- SECCIÓN HISTORIA -->
+        <section id="historia" aria-labelledby="historia-heading">
+            <div class="container">
+
+                <!-- Main grid-->
+                <div class="historia-grid">
+
+                    <!-- Texto -->
+                    <div class="historia-text reveal">
+                        <span class="section-label">📖 Nuestra historia</span>
+                        <h2 id="historia-heading">El origen de <span class="highlight">Milo</span></h2>
+                        <p>
+                        Milo nace a partir de la necesidad de crear herramientas educativas accesibles
+                        para estudiantes con Trastorno del Espectro Autista. A través de tecnología,
+                        educación e inteligencia artificial, la plataforma busca complementar terapias
+                        tradicionales mediante experiencias personalizadas, interactivas y respetuosas.
+                        </p>
+                        <p>
+                        Nuestro equipo multidisciplinario —integrado por educadores especiales,
+                        psicólogos, terapeutas del lenguaje y desarrolladores tecnológicos— trabajó
+                        junto a familias reales para diseñar cada funcionalidad con empatía y rigor.
+                        </p>
+                        <p>
+                        Creemos que cada niño merece una educación a su medida, y que la tecnología
+                        puede ser una aliada poderosa cuando se usa con responsabilidad y vocación.
+                        </p>
+                        <a href="#contacto" class="btn" style="margin-top:0.5rem">Contáctanos →</a>
+                    </div>
+
+                    <!-- Placeholders de imágenes -->
+                    <div class="historia-images reveal reveal-delay-1">
+                        <!-- Mockup principal -->
+                        <div class="image-placeholder" style="min-height:220px;" role="img" aria-label="Espacio reservado para mockup principal de la plataforma">
+                            <img src="media/mockup.png" alt="Vista principal">
+                        </div>
+                        <!-- Mockup secundario izq -->
+                        <div class="image-placeholder small" style="min-height:160px;" role="img" aria-label="Espacio reservado para imagen del equipo">
+                            <img src="media/equipo-milo.jpeg" alt="Equipo de desarrollo de Milo">
+                        </div>
+                        <!-- Mockup secundario der -->
+                        <div class="image-placeholder" style="min-height:160px;" role="img" aria-label="Espacio reservado para imagen de sesión con niño">
+                            <img src="media/sesion-educativa.jpeg" alt="Sesion educativa">
+                        </div>
+                    </div>
+
+                </div><!-- /historia-grid -->
+            </div>
+        </section><!-- /#historia -->
+
+        <!-- Wave divider -->
+        <div class="wave-divider" aria-hidden="true">
+            <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" height="60">
+                <path d="M0,40 C360,10 1080,60 1440,20 L1440,0 L0,0 Z" fill="#F4F7F5"/>
+            </svg>
+        </div>
+
+        <!-- SECCIÓN CONTACTO -->
+        <section id="contacto" aria-labelledby="contacto-heading">
+            <div class="container">
+                <div class="contacto-inner">
+
+                <!-- Info -->
+                <div class="contacto-info reveal">
+                    <span class="section-label">✉️ Contáctanos</span>
+                    <h2 id="contacto-heading">¿Listo para empezar con <span class="highlight">Milo</span>?</h2>
+                    <p>
+                    Escríbenos y con gusto te acompañaremos en el proceso de integrar
+                    Milo al desarrollo de tu hijo o estudiante.
+                    </p>
+
+                    <div class="contact-badges" role="list">
+                    <div class="contact-badge" role="listitem">
+                        <span class="cb-icon" aria-hidden="true">📞</span>
+                        <span>+52 722 910 6185</span>
+                    </div>
+                    <div class="contact-badge" role="listitem">
+                        <span class="cb-icon" aria-hidden="true">📞</span>
+                        <span>+52 722 552 4392</span>
+                    </div>
+                    <div class="contact-badge" role="listitem">
+                        <span class="cb-icon" aria-hidden="true">📞</span>
+                        <span>+52 717 106 6003</span>
+                    </div>
+                    <div class="contact-badge" role="listitem">
+                        <span class="cb-icon" aria-hidden="true">⏰</span>
+                        <span>Lunes a viernes, 11:00 – 18:00 h</span>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Formulario -->
+                <div class="form-card reveal reveal-delay-1">
+
+                    <!-- Formulario real -->
+                    <form id="contact-form" novalidate aria-label="Formulario de contacto">
+
+                    <!-- Nombre -->
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo<span class="required" aria-hidden="true">*</span></label>
+                        <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Ej. María González"
+                        autocomplete="name"
+                        aria-required="true"
+                        aria-describedby="nombre-error"
+                        />
+                        <p class="field-error" id="nombre-error" role="alert">Por favor ingresa tu nombre.</p>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="form-group">
+                        <label for="email">Correo electrónico<span class="required" aria-hidden="true">*</span></label>
+                        <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Ej. maria@correo.com"
+                        autocomplete="email"
+                        aria-required="true"
+                        aria-describedby="email-error"
+                        />
+                        <p class="field-error" id="email-error" role="alert">Por favor ingresa un correo válido.</p>
+                    </div>
+
+                    <!-- Comentario -->
+                    <div class="form-group">
+                        <label for="comentario">Comentario o mensaje<span class="required" aria-hidden="true">*</span></label>
+                        <textarea
+                        id="comentario"
+                        name="comentario"
+                        rows="4"
+                        placeholder="Cuéntanos cómo podemos ayudarte…"
+                        aria-required="true"
+                        aria-describedby="comentario-error"
+                        ></textarea>
+                        <p class="field-error" id="comentario-error" role="alert">Por favor escribe tu mensaje.</p>
+                    </div>
+
+                    <!-- Submit -->
+                    <button type="submit" class="btn form-submit">Enviar mensaje</button>
+
+                    </form>
+
+                    <!-- Mensaje de éxito (oculto por defecto) -->
+                    <div class="form-success" id="form-success" role="status" aria-live="polite">
+                        <div class="success-icon" aria-hidden="true">✅</div>
+                        <h3>¡Mensaje enviado!</h3>
+                        <p>Gracias por contactarnos. Nuestro equipo se pondrá en contacto contigo a la brevedad.</p>
+                    </div>
+
+                </div><!-- /form-card -->
+
+                </div><!-- /contacto-inner -->
+            </div>
+        </section><!-- /#contacto -->
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer role="contentinfo">
+        <div class="footer-inner">
+            <div class="footer-logo"><span>Milo</span> - Educación Inclusiva con IA</div>
+            <nav class="footer-links" aria-label="Navegación footer">
+                <a href="#inicio">Inicio</a>
+                <a href="#historia">Historia</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <p class="footer-copy">Derechos reservados © 2026 - Milo Educación Inclusiva. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <button class="scroll-top" id="scroll-top" aria-label="Volver al inicio" title="Ir arriba">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>
